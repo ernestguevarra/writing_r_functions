@@ -129,10 +129,13 @@ tab <- data.frame(Population, Mild, Moderate, Severe, stringsAsFactors = FALSE)
 
 knitr::kable(x = tab,
              booktabs = TRUE,
-             caption = "Hb levels to diagnose anaemia at sea level in grams per litre (g/L)",
+             caption = "Table 1: Hb levels to diagnose anaemia at sea level in grams per litre (g/L)",
              row.names = FALSE)
 ```
 
 Using this information, create a function that would accept data containing haemoglobin values, age/age grouping and altitude and would then classify each row of the data to whether the specific sample/participant has anaemia.
+
+A sample haemoglobin dataset is found in the `data` folder - https://github.com/ernestguevarra/writing_r_functions/tree/main/data.
+
 
 

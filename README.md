@@ -36,7 +36,7 @@ By the end of this tutorial, participants would be able to:
 
 ### Exercise 1
 
-Using the **Nutriverse** `nutricheckr` pockage, review the structure of
+Using the **Nutriverse** `nutricheckr` package, review the structure of
 the `flag_who` function and the type of output/s it provides (see
 <https://github.com/nutriverse/nutricheckr/blob/master/R/flag_who.R>).
 
@@ -122,9 +122,13 @@ anaemia.
 | Men                         |           |          |         |
 | (15 years and above)        | 110 - 129 | 80 - 109 | &lt; 80 |
 
-Hb levels to diagnose anaemia at sea level in grams per litre (g/L)
+Table 1: Hb levels to diagnose anaemia at sea level in grams per litre
+(g/L)
 
 Using this information, create a function that would accept data
 containing haemoglobin values, age/age grouping and altitude and would
 then classify each row of the data to whether the specific
 sample/participant has anaemia.
+
+A sample haemoglobin dataset is found in the `data` folder -
+<https://github.com/ernestguevarra/writing_r_functions/tree/main/data>.
